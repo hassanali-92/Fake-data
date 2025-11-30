@@ -12,7 +12,7 @@ export default function EditUser() { // Renamed for clarity
   // Fetch user data once when component mounts
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/users/${id}`)
+      .get(`https://fake-data-2.onrender.com/users/${id}`)
       .then((res) => setUser(res.data))
       .catch((err) => {
         console.error(err);
@@ -24,7 +24,7 @@ export default function EditUser() { // Renamed for clarity
     e.preventDefault();
 
     try {
-      const res = await axios.put(`http://localhost:3000/users/${id}`, user);
+      const res = await axios.put(`https://fake-data-2.onrender.com/users/${id}`, user);
 
       if (res.status !== 200) {
         throw new Error("Network response was not ok");
@@ -87,3 +87,4 @@ export default function EditUser() { // Renamed for clarity
     </div>
   );
 }
+
