@@ -1,7 +1,8 @@
 {
    {
-      "id": "1",
-      "name": "hassan",
-      "email": "Hassan@gmail.com"
-    },
+  users: [
+    { "id": 1, "name": "Ali" }
+  ]
+}
+
 }
