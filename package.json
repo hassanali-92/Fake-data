@@ -7,7 +7,8 @@
     "dev": "concurrently \"vite\" \"json-server --watch db.json --port 3001\"",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "concurrently \"vite\" \"json-server --watch db.json --port $PORT\""
+  "start": "concurrently \"vite --host 0.0.0.0 --port $PORT\" \"json-server --watch db.json --port 10000\""
+
   },
   "dependencies": {
     "axios": "^1.13.2",
