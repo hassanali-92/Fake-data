@@ -1,7 +1,29 @@
-
- {
+{
   "users": [
-    { "id": 1, "name": "Ali" }
+    {
+      "id": 1,
+      "name": "Hassan",
+      "email": "hassan@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Ali",
+      "email": "ali@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Bilal",
+      "email": "bilal@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Usman",
+      "email": "usman@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Saad",
+      "email": "saad@gmail.com"
+    }
   ]
 }
-
