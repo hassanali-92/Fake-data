@@ -12,7 +12,7 @@ export default function Create() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:3000/users", user);
+      const res = await axios.post("https://fake-data-2.onrender.com/users", user);
 
       if (res.status !== 201 && res.status !== 200) {
         throw new Error("Network response was not ok");
@@ -76,3 +76,4 @@ export default function Create() {
     </div>
   );
 }
+
