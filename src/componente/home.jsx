@@ -14,7 +14,7 @@ import "react-toastify/dist/ReactToastify.css";
 
   const fetchUsers = async () => {
     try {
-      const res = await axios.get("http://localhost:3000/users");
+      const res = await axios.get("https://fake-data-2.onrender.com/users");
       setPost(res.data);
     } catch (err) {
       console.error(err);
@@ -86,6 +86,7 @@ import "react-toastify/dist/ReactToastify.css";
     </div>
   );
 }
+
 
 
 
