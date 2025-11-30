@@ -28,7 +28,7 @@ import "react-toastify/dist/ReactToastify.css";
     if (!confirmDelete) return;
 
     try {
-      await axios.delete(`http://localhost:3000/users/${id}`);
+      await axios.delete(`https://fake-data-2.onrender.com/users/${id}`);
       toast.success("User deleted successfully!");
       // Remove deleted user from state without reloading
       setPost(post.filter((user) => user.id !== id));
@@ -91,3 +91,4 @@ import "react-toastify/dist/ReactToastify.css";
 
 
 export default Home
+
